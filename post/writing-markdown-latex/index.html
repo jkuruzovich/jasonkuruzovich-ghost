@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.25.1" />
+  <meta name="generator" content="Hugo 0.25.1">
   <meta name="author" content="Jason Kuruzovich">
   <meta name="description" content="Associate Professor of Business Analytics &amp; Director of the Severino Center for Technological Entrepreneurship">
 
@@ -53,8 +53,7 @@
 
     
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -162,7 +161,7 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2016-04-20 10:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2016-04-20 10:00:00 +0000 UTC" itemprop="datePublished">
       Wed, Apr 20, 2016
     </time>
   </span>
@@ -179,36 +178,27 @@
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f"
-         target="_blank">
+      <a class="facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f" target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes&amp;url=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f"
-         target="_blank">
+      <a class="twitter" href="https://twitter.com/intent/tweet?text=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes&amp;url=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f" target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f&amp;title=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes"
-         target="_blank">
+      <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f&amp;title=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes" target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f&amp;title=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes"
-         target="_blank">
+      <a class="weibo" href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f&amp;title=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes" target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
-      <a class="email"
-         href="mailto:?subject=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes&amp;body=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f">
+      <a class="email" href="mailto:?subject=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes&amp;body=http%3a%2f%2fjasonkuruzovich.com%2fpost%2fwriting-markdown-latex%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -266,16 +256,16 @@ Strikethrough with ~~two tildes~~.
 
 <p>A numbered figure with caption:</p>
 
-<pre><code>{{&lt; figure src=&quot;/img/screenshot.png&quot; title=&quot;Figure Caption&quot; &gt;}}
+<pre><code>{{&lt; figure src="/img/screenshot.png" title="Figure Caption" &gt;}}
 </code></pre>
 
 <h2 id="links">Links</h2>
 
 <pre><code>[I'm a link](https://www.google.com)
-[A post]({{&lt; ref &quot;post/hi.md&quot; &gt;}})
-[A publication]({{&lt; ref &quot;publication/hi.md&quot; &gt;}})
-[A project]({{&lt; ref &quot;project/hi.md&quot; &gt;}})
-[Another section]({{&lt; relref &quot;hi.md#who&quot; &gt;}})
+[A post]({{&lt; ref "post/hi.md" &gt;}})
+[A publication]({{&lt; ref "publication/hi.md" &gt;}})
+[A project]({{&lt; ref "project/hi.md" &gt;}})
+[Another section]({{&lt; relref "hi.md#who" &gt;}})
 </code></pre>
 
 <h2 id="emojis">Emojis</h2>
@@ -311,23 +301,23 @@ Strikethrough with ~~two tildes~~.
 
 <pre><code>```python
 # Example of code highlighting
-input_string_var = input(&quot;Enter some data: &quot;)
-print(&quot;You entered: {}&quot;.format(input_string_var))
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
 ```
 </code></pre>
 
 <p>Result:</p>
 
 <pre><code class="language-python"># Example of code highlighting
-input_string_var = input(&quot;Enter some data: &quot;)
-print(&quot;You entered: {}&quot;.format(input_string_var))
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
 </code></pre>
 
 <h3 id="highlighting-options">Highlighting options</h3>
 
 <p>The Academic theme uses <a href="https://highlightjs.org" target="_blank">highlight.js</a> for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.</p>
 
-<p>The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &ldquo;yes&rdquo; in the <strong>config.toml</strong> column means the value can be set globally in <code>config.toml</code>, and a &ldquo;yes&rdquo; in the <strong>preamble</strong> column means that the value can be set locally in a particular page&rsquo;s preamble.</p>
+<p>The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A “yes” in the <strong>config.toml</strong> column means the value can be set globally in <code>config.toml</code>, and a “yes” in the <strong>preamble</strong> column means that the value can be set locally in a particular page’s preamble.</p>
 
 <table>
 <thead>
@@ -377,7 +367,7 @@ print(&quot;You entered: {}&quot;.format(input_string_var))
 
 <h4 id="option-highlight">Option <code>highlight</code></h4>
 
-<p>The <code>highlight</code> option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified <code>highlight = true</code>. That is, the highlight.js javascript and css files will be included in every page. If you&rsquo;d like to only include highlight.js files on pages that actually require source code highlighting, you can set <code>highlight = false</code> in <code>config.toml</code>, and then override it by setting <code>highlight = true</code> in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of <code>highlight</code> set in <code>config.toml</code> and/or the page&rsquo;s preamble.</p>
+<p>The <code>highlight</code> option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified <code>highlight = true</code>. That is, the highlight.js javascript and css files will be included in every page. If you’d like to only include highlight.js files on pages that actually require source code highlighting, you can set <code>highlight = false</code> in <code>config.toml</code>, and then override it by setting <code>highlight = true</code> in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of <code>highlight</code> set in <code>config.toml</code> and/or the page’s preamble.</p>
 
 <table>
 <thead>
@@ -417,21 +407,21 @@ print(&quot;You entered: {}&quot;.format(input_string_var))
 
 <h4 id="option-highlight-languages">Option <code>highlight_languages</code></h4>
 
-<p>The <code>highlight_languages</code> option allows you to specify additional languages that are supported by highlight.js, but are not considered &ldquo;common&rdquo; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set <code>highlight_languages = [&quot;go&quot;, &quot;clojure&quot;]</code> in <code>config.toml</code>. If, on the other hand, you want to enable a language only for a specific page, you can set <code>highlight_languages</code> in that page&rsquo;s preamble.</p>
+<p>The <code>highlight_languages</code> option allows you to specify additional languages that are supported by highlight.js, but are not considered “common” and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set <code>highlight_languages = ["go", "clojure"]</code> in <code>config.toml</code>. If, on the other hand, you want to enable a language only for a specific page, you can set <code>highlight_languages</code> in that page’s preamble.</p>
 
-<p>The <code>highlight_languages</code> options specified in <code>config.toml</code> and in a page&rsquo;s preamble are additive. That is, if <code>config.toml</code> contains, <code>highlight_languages = [&quot;go&quot;]</code> and the page&rsquo;s preamble contains <code>highlight_languages = [&quot;ocaml&quot;]</code>, then javascript files for <em>both</em> go and ocaml will be included for that page.</p>
+<p>The <code>highlight_languages</code> options specified in <code>config.toml</code> and in a page’s preamble are additive. That is, if <code>config.toml</code> contains, <code>highlight_languages = ["go"]</code> and the page’s preamble contains <code>highlight_languages = ["ocaml"]</code>, then javascript files for <em>both</em> go and ocaml will be included for that page.</p>
 
-<p>If the <code>highlight_languages</code> option is set, then the corresponding javascript files will be served from the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs server</a>. To see a list of available languages, visit the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs page</a> and search for links with the word &ldquo;languages&rdquo;.</p>
+<p>If the <code>highlight_languages</code> option is set, then the corresponding javascript files will be served from the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs server</a>. To see a list of available languages, visit the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs page</a> and search for links with the word “languages”.</p>
 
-<p>The <code>highlight_languages</code> option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the <a href="../getting-started/index.html#third-party-and-local-scripts-js" target="_blank">getting started guide</a>.</p>
+<p>The <code>highlight_languages</code> option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn’t meet your needs, you can include javascript files for additional language support via one of the methods described in the <a href="../getting-started/index.html#third-party-and-local-scripts-js" target="_blank">getting started guide</a>.</p>
 
 <h4 id="option-highlight-style">Option <code>highlight_style</code></h4>
 
-<p>The <code>highlight_style</code> option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set <code>highlight_style = &quot;solarized-dark&quot;</code> in <code>config.toml</code>.</p>
+<p>The <code>highlight_style</code> option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set <code>highlight_style = "solarized-dark"</code> in <code>config.toml</code>.</p>
 
 <p>If the <code>highlight_style</code> option is unset, the default is to use the file <code>/css/highlight.min.css</code>, either the one provided by the Academic theme, or else the one in your local <code>static</code> directory.  The <code>/css/highlight.min.css</code> file provided by Academic is equivalent to the <code>github</code> style from highlight.js.</p>
 
-<p>If the <code>highlight_style</code> option <em>is</em> set, then <code>/css/highlight.min.css</code> is ignored, and the corresponding css file will be served from the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs server</a>. To see a list of available styles, visit the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs page</a> and search for links with the word &ldquo;styles&rdquo;.</p>
+<p>If the <code>highlight_style</code> option <em>is</em> set, then <code>/css/highlight.min.css</code> is ignored, and the corresponding css file will be served from the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs server</a>. To see a list of available styles, visit the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs page</a> and search for links with the word “styles”.</p>
 
 <p>See the <a href="https://highlightjs.org/static/demo/" target="_blank">highlight.js demo page</a> for examples of available styles.</p>
 
@@ -442,20 +432,20 @@ print(&quot;You entered: {}&quot;.format(input_string_var))
 
 
 <div class="alert alert-note">
-  <p>If you don&rsquo;t want to change the default style that ships with Academic but you do want the style file served from the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs server</a>, set <code>highlight_style = &quot;github&quot;</code> in <code>config.toml</code>.</p>
+  <p>If you don’t want to change the default style that ships with Academic but you do want the style file served from the <a href="https://cdnjs.com/libraries/highlight.js/" target="_blank">cdnjs server</a>, set <code>highlight_style = "github"</code> in <code>config.toml</code>.</p>
 
 </div>
 
 
-<p>The <code>highlight_style</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_style</code> in your page&rsquo;s preamble has no effect.</p>
+<p>The <code>highlight_style</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_style</code> in your page’s preamble has no effect.</p>
 
 <h4 id="option-highlight-version">Option <code>highlight_version</code></h4>
 
-<p>The <code>highlight_version</code> option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is &ldquo;9.9.0&rdquo;. The <code>highlight_version</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_version</code> in your page&rsquo;s preamble has no effect.</p>
+<p>The <code>highlight_version</code> option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is “9.9.0”. The <code>highlight_version</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_version</code> in your page’s preamble has no effect.</p>
 
 <h2 id="twitter-tweet">Twitter tweet</h2>
 
-<p>To include a single tweet, pass the tweet’s ID from the tweet&rsquo;s URL as parameter to the shortcode:</p>
+<p>To include a single tweet, pass the tweet’s ID from the tweet’s URL as parameter to the shortcode:</p>
 
 <pre><code>{{&lt; tweet 666616452582129664 &gt;}}
 </code></pre>
@@ -539,7 +529,7 @@ Here's a tip or note...
 <p>This will display the following <em>note</em> block:</p>
 
 <div class="alert alert-note">
-  <p>Here&rsquo;s a tip or note&hellip;</p>
+  <p>Here’s a tip or note…</p>
 
 </div>
 
@@ -552,13 +542,13 @@ Here's some important information...
 <p>This will display the following <em>warning</em> block:</p>
 
 <div class="alert alert-warning">
-  <p>Here&rsquo;s some important information&hellip;</p>
+  <p>Here’s some important information…</p>
 
 </div>
 
 <div class="footnotes">
 
-<hr />
+<hr>
 
 <ol>
 <li id="fn:1">Footnote example.
@@ -574,13 +564,11 @@ Here's some important information...
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="../migrate-from-jekyll/index.html"><span
-      aria-hidden="true">&larr;</span> Migrate from Jekyll to Hugo</a></li>
+    <li class="previous"><a href="../migrate-from-jekyll/index.html"><span aria-hidden="true">←</span> Migrate from Jekyll to Hugo</a></li>
     
 
     
-    <li class="next"><a href="../managing-content/index.html">Managing content <span
-      aria-hidden="true">&rarr;</span></a></li>
+    <li class="next"><a href="../managing-content/index.html">Managing content <span aria-hidden="true">→</span></a></li>
     
   </ul>
 </nav>
@@ -596,7 +584,7 @@ Here's some important information...
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Jason Kuruzovich &middot; 
+      © 2017 Jason Kuruzovich · 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
@@ -654,4 +642,3 @@ Here's some important information...
 
   </body>
 </html>
-
